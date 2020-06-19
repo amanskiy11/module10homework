@@ -1,15 +1,13 @@
-let x = prompt('Введите x')
-let num = typeof x === "number"
-let str = typeof x === "string"
-let bool = typeof x === "boolean"
-switch (x) {
-    case num:
+let x = 3;
+let xType = typeof x;
+switch (xType) {
+    case "number":
         console.log('x - число')
         break;
-    case str:
+    case "string":
         console.log('x - строка')
         break;
-    case bool:
+    case "boolean":
         console.log('x - логический тип')
         break;
     default:
